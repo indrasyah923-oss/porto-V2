@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Kelebihan dan Kekurangan AI dalam Koding</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes pulse-slow {
+            0%, 100% { opacity: 0.1; transform: scale(1); }
+            50% { opacity: 0.2; transform: scale(1.1); }
+        }
+        .animate-pulse-slow {
+            animation: pulse-slow 8s infinite ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-gray-950 text-gray-100 selection:bg-purple-500/30">
+
+    <div class="fixed inset-0 overflow-hidden pointer-events-none -z-10">
+        <div class="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-purple-600/20 rounded-full blur-[120px] animate-pulse-slow"></div>
+        <div class="absolute bottom-[-10%] right-[-10%] w-[500px] h-[500px] bg-blue-600/10 rounded-full blur-[120px] animate-pulse-slow" style="animation-delay: 2s;"></div>
+    </div>
+
+    <header class="relative z-20 border-b border-gray-800 bg-gray-900/40 backdrop-blur-xl">
+        <div class="max-w-4xl mx-auto px-6 py-16 text-center">
+            <h1 class="text-6xl md:text-7xl font-black tracking-tighter bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent mb-6">
+                BLOG
+            </h1>
+            <nav class="flex justify-center items-center gap-3 text-gray-400 font-medium">
+                <button onclick="window.history.back()" class="hover:text-purple-400 transition-all duration-300 flex items-center gap-2 group">
+                    <span class="group-hover:-translate-x-1 transition-transform">←</span> Blog
+                </button>
+                <span class="text-gray-700">/</span>
+                <span class="text-pink-400/90">Artikel Detail</span>
+            </nav>
+        </div>
+    </header>
+
+    <main class="relative z-10 max-w-5xl mx-auto px-6 py-16">
+        <article>
+            <header class="mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-white leading-tight mb-6">
+                    Kelebihan dan Kekurangan Menggunakan AI dalam Koding
+                </h2>
+                <div class="flex items-center gap-4 text-sm text-gray-500">
+                    <span class="px-3 py-1 rounded-full bg-gray-900 border border-gray-800 text-purple-400">Teknologi</span>
+                    
+                </div>
+            </header>
+
+            <img 
+    src="../src/img/generated-ai.png" 
+    alt="AI dan Koding" 
+    class="relative w-full aspect-video object-cover rounded-2xl border border-gray-800"
+>
+
+            <div class="space-y-4 md:space-y-8 text-gray-300 text-base md:text-lg leading-relaxed">
+                <p>
+                    Artificial Intelligence (AI) kini menjadi bagian dari keseharian banyak programmer dan web developer. Berbagai tools berbasis AI mampu membantu menulis kode, menjelaskan error, hingga memberikan solusi pemrograman dengan cepat. Hal ini membuat proses koding terasa lebih mudah dan efisien.
+                </p>
+
+                <p>
+                    Namun, di balik kemudahan tersebut, penggunaan AI dalam koding juga memiliki sisi lain yang perlu diperhatikan. Tidak semua hasil dari AI selalu tepat atau sesuai dengan kebutuhan proyek. Oleh karena itu, penting untuk memahami kelebihan dan kekurangan AI agar penggunaannya tetap bijak.
+                </p>
+
+                <h3 class="text-xl md:text-2xl font-semibold text-white mt-12">
+                    Kelebihan Menggunakan AI dalam Koding
+                </h3>
+
+                <p>
+                    Salah satu kelebihan utama AI adalah kemampuannya mempercepat proses penulisan kode. Developer dapat menghasilkan struktur dasar HTML, CSS, atau JavaScript hanya dengan memberikan instruksi singkat. Hal ini sangat membantu untuk menghemat waktu, terutama pada pekerjaan yang bersifat repetitif.
+                </p>
+
+                <p>
+                    Selain itu, AI juga sangat berguna dalam membantu debugging. Ketika terjadi error, AI dapat memberikan penjelasan penyebab masalah serta solusi yang memungkinkan. Bagi pemula, AI bisa menjadi asisten belajar yang membantu memahami konsep pemrograman dengan lebih mudah.
+                </p>
+
+                <h3 class="text-xl md:text-2xl font-semibold text-white mt-12">
+                    Kekurangan Menggunakan AI dalam Koding
+                </h3>
+
+                <p>
+                    Meskipun praktis, penggunaan AI secara berlebihan dapat menyebabkan ketergantungan. Developer bisa terbiasa menyalin kode tanpa benar-benar memahami logika di baliknya. Jika hal ini terjadi, kemampuan berpikir kritis dan pemahaman dasar pemrograman bisa menurun.
+                </p>
+
+                <p>
+                    Selain itu, kode yang dihasilkan AI tidak selalu optimal atau aman. AI tidak sepenuhnya memahami konteks proyek, kebutuhan bisnis, maupun standar keamanan tertentu. Oleh karena itu, hasil dari AI tetap perlu ditinjau dan disesuaikan oleh developer.
+                </p>
+
+                <h3 class="text-xl md:text-2xl font-semibold text-white mt-12">
+                    Kesimpulan
+                </h3>
+
+                <p>
+                    Menggunakan AI dalam koding memiliki banyak kelebihan, terutama dalam hal efisiensi dan kemudahan belajar. Namun, AI juga memiliki kekurangan jika digunakan tanpa pemahaman yang baik.
+                </p>
+
+                <p>
+                    AI sebaiknya digunakan sebagai alat bantu, bukan pengganti kemampuan developer. Dengan penggunaan yang tepat, AI dapat menjadi partner yang sangat membantu dalam proses pengembangan aplikasi dan website.
+                </p>
+            </div>
+        </article>
+    </main>
+
+</body>
+</html>
